@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
 
+const string trueLabel = "true";
+const string falseLabel = "false";
+const char* operators[6] = {" == ", " != ", " > ", " < ", " >= ", " <= "};
+
 int main() {
-    const string trueLabel = "true";
-    const string falseLabel = "false";
-    const char* operators[6] = {" == ", " != ", " > ", " < ", " >= ", " <= "};
 
     int numbers[12];
 
